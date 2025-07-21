@@ -1,8 +1,8 @@
-# 🔍 Job Skill Trend Analyzer (LinkedIn Scraper + Heatmap)
+#  Job Skill Trend Analyzer (LinkedIn Scraper + Heatmap)
 
 This project scrapes job listings from LinkedIn for a given role and location, analyzes the demand for specific technical skills, and visualizes the results using a heatmap of the top cities.
 
-## 📌 Features
+## Features
 
 - Scrapes multiple pages of job listings for a chosen title and location
 - Extracts job title, company, location, and full description
@@ -10,7 +10,7 @@ This project scrapes job listings from LinkedIn for a given role and location, a
 - Aggregates skill mentions by city
 - Visualizes the top 10 cities using a heatmap
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - `requests` – For HTTP GET requests to LinkedIn job pages
 - `BeautifulSoup` (bs4) – For HTML parsing and scraping
@@ -18,7 +18,7 @@ This project scrapes job listings from LinkedIn for a given role and location, a
 - `matplotlib` & `seaborn` – For visualization
 - `re` – For regular expression-based text extraction
 
-## 📊 Example Output
+## Example Output
 
 A heatmap showing frequency of skills like Python, SQL, AWS across top cities such as Toronto, New York, and San Francisco.
 
